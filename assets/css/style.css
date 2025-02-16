@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/img/bg.jpg) center / cover no-repeat;
+}
+
+#main {
+    position: relative;
+    top: 80px;
+}
+
+#main .info {
+    position: relative;
+    top: 50%;
+    width: 35%;
+    height: 600px;
+    border-right: 3px solid white;
+}
+
+#main .info .avatar {
+    position: relative;
+    top: 30px;
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    background: url(/assets/img/avatar.jpg) center / cover no-repeat;
+    left: 50%;
+    transform: translateX(-50%);    
+    border: 2px solid #fff;
+}
+
+#main .info .i-text {
+    position: relative;
+    top: 50px;
+    color:white;
+    text-align: center;
+}
+
+#main #content {
+    right: 0;   
+    top: 0;
+    position: absolute;
+    width: 65%;
+    text-align: center;
+
+}
+
+#main #content ul {
+    text-decoration: none;
+}
+
+#main .socials ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+    align-items: center;
+    font-size: 70px;
+    margin: 20px 100px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    backdrop-filter: blur(20px);
+}
+
+#main .socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#main .socials a:hover {
+    color: rgb(255, 147, 24);
+    transition: color 0.5s;
+}
+
+#main .socials i {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+/* RESPONSIVE */
+
+    /* MOBILE */
+@media only screen and (max-width: 46.1875em) {
+
+    #main {
+        top: 30px;
+    }
+
+    #main .info {
+        position: relative;
+        width: 100%;
+        height: 405px;
+        border-right: 0;
+    }
+
+    #main .info .avatar {
+        top: 15px;
+    }
+
+    #main .info .i-text {
+        top: 30px
+    }
+    #main #content {
+        position: relative;
+        width: 100%;
+    }
+
+    #main .socials {
+        left: 0;
+        right: 0;
+        display: block;
+    }
+
+    #main .socials ul li {
+        font-size: 40px;
+        width: 62px;
+        height: 62px;
+        margin: 12px 28px 14px 28px;
+    }
+
+    #main .socials h1 {
+        margin: 0 !important;
+    }
+
+}
+
+    /* TABLET */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #main {
+        top: 60px;
+    }
+    
+    #main .socials ul li {  
+        font-size: 50px;
+        width: 80px;
+        height: 80px;
+        margin: 20px 60px;
+    }
+}
