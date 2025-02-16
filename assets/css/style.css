@@ -13,7 +13,8 @@ html {
 body {
     width: 100%;
     height: 100vh;
-    background: url(/assets/img/bg.jpg) center / cover no-repeat;
+/*     background: url(/assets/img/bg.jpg) center / cover no-repeat; */
+    background: url(https://i.imgur.com/YpCE9lw.jpeg) center / cover no-repeat;
 }
 
 #main {
@@ -35,7 +36,8 @@ body {
     width: 168px;
     height: 168px;
     border-radius: 50%;
-    background: url(/assets/img/avatar.jpg) center / cover no-repeat;
+/*     background: url(/assets/img/avatar.jpg) center / cover no-repeat; */
+    background: url(https://i.imgur.com/ol3J1kw.jpeg) center / cover no-repeat;
     left: 50%;
     transform: translateX(-50%);    
     border: 2px solid #fff;
